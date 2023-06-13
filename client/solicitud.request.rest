@@ -1,0 +1,20 @@
+POST http://localhost:3000/api/v1/solicitud
+Content-Type: application/json
+
+{
+    "nombre": "Tinio",
+    "cargo": "formador",
+    "promocion": "p7",
+    "email": "sara@example.com",
+    "tipo": "masterclass",
+    "nombreActividad": "Taller Testing APIs NestJS",
+    "start": "2023-06-15 00:00:00",
+    "end": "2023-06-15 00:00:00",
+    "dia": "Lunes",
+    "horaInicio": "17:00",
+    "horaFin": "19:00"
+}
+
+#####
+
+GET  http://localhost:3000/api/v1/solicitud

@@ -51,7 +51,7 @@ describe('EspacioController', () => {
     expect(await controller.findAll()).toMatchObject({ espacios });
   });
 
-  it('should create a space and return the new space {id: 1, edificio: "A", aula: "2C"}', async () => {
+  it('should create a space and return the new space {id: 2, edificio: "B", aula: "1A"}', async () => {
     const newSpace = { edificio: "B", aula: "1A" };
 
     expect(await controller.create(newSpace)).toMatchObject({
